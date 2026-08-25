@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CASES = ROOT / "femboy-guide" / "references" / "cases"
+CASES = ROOT / "femboy-guide" / "cases"
 CONTROL_FILES = {"README.md", "INDEX.md", "_template.md"}
 REQUIRED = {"title", "category", "experience_level", "outcome", "adult", "anonymized"}
 FILENAME = re.compile(r"^\d{4}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*\.md$")

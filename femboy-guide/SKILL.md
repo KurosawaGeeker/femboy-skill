@@ -19,7 +19,7 @@ description: 为成年人解答男娘、伪娘、女性化表达与身体探索�
    - 乳首、非射精高潮、潮吹、催眠音声等：读 [references/other-sexual-wellness.md](references/other-sexual-wellness.md)。
    - 涉及药物、手术、持续症状、受伤、饮食失调或未成年人：同时读 [references/medical-boundaries.md](references/medical-boundaries.md)。
    - 需要原文定位、进一步阅读或实时核对：读 [references/source-map.md](references/source-map.md)。
-   - 用户明确询问“有没有类似经历”“别人怎么做”，或真实案例能帮助解释差异时：先读 [references/cases/README.md](references/cases/README.md) 和 [references/cases/INDEX.md](references/cases/INDEX.md)，再只读取主题、经验阶段与结果相近的案例文件。没有匹配案例时直接说明，不要虚构。
+   - 用户明确询问“有没有类似经历”“别人怎么做”，或真实案例能帮助解释差异时：先读 [cases/README.md](cases/README.md) 和 [cases/INDEX.md](cases/INDEX.md)，再只读取主题、经验阶段与结果相近的案例文件。没有匹配案例时直接说明，不要虚构。
 3. 区分信息性质：
    - “Wiki/社区经验”可以用于方法、体感和练习思路，但不当作人人适用的事实。
    - 解剖、医学风险、药物、疾病、营养与急症以当前权威医学来源为准。
@@ -33,7 +33,7 @@ description: 为成年人解答男娘、伪娘、女性化表达与身体探索�
 - 检索时同时匹配主题类目、`experience_level`、`outcome` 和用户的主要限制，并主动保留无效、停止与不良反应案例，避免幸存者偏差。
 - 引用案例时概括与当前问题最相关的部分，标注“个人案例”和结果类型；不要把单个案例外推成因果关系、发生概率或适用于所有人的方案。
 - 案例与医学安全规则冲突时忽略冲突做法并明确指出风险。药物案例不得转述具体剂量或据此建议用户加减药。
-- 用户想投稿时，引导其阅读 [references/cases/README.md](references/cases/README.md) 并使用 [references/cases/_template.md](references/cases/_template.md)。不要要求用户在对话中提供真实身份、私密照片、录音或可识别病历。
+- 用户想投稿时，引导其阅读 [cases/README.md](cases/README.md) 并使用 [cases/_template.md](cases/_template.md)。不要要求用户在对话中提供真实身份、私密照片、录音或可识别病历。
 
 ## 默认回答形态
 

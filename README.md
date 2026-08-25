@@ -83,11 +83,11 @@ skill 会尽量先给直接结论，再提供可执行的小步骤、观察指�
 
 ## 社区真实案例库
 
-[`femboy-guide/references/cases/`](femboy-guide/references/cases/README.md) 用于收录成年贡献者提交、完成个人信息脱敏的第一手真实经历。案例按主题目录、经验阶段和结果分类，既收录有效经验，也保留部分有效、无效、停止和不良反应案例。
+[`femboy-guide/cases/`](femboy-guide/cases/README.md) 用于收录成年贡献者提交、完成个人信息脱敏的第一手真实经历。案例按主题目录、经验阶段和结果分类，既收录有效经验，也保留部分有效、无效、停止和不良反应案例。
 
-案例是帮助理解个体差异的社区经验，不是医学证据或效果保证。贡献者可以复制宽松的 [`_template.md`](femboy-guide/references/cases/_template.md)，放入对应类别目录并发起 PR；只需保留少量必填字段，其他章节可以根据经历自由删改。
+案例是帮助理解个体差异的社区经验，不是医学证据或效果保证。贡献者可以复制宽松的 [`_template.md`](femboy-guide/cases/_template.md)，放入对应类别目录并发起 PR；只需保留少量必填字段，其他章节可以根据经历自由删改。
 
-投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-guide/references/cases/README.md)。
+投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-guide/cases/README.md)。
 
 ## 安全原则
 
@@ -107,8 +107,8 @@ femboy-skill/
 ├── femboy-guide/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
-│   └── references/
-│       └── cases/          # 分类案例、索引与投稿模板
+│   ├── cases/              # 分类案例、索引与投稿模板
+│   └── references/         # 主题知识与安全边界
 ├── assets/
 ├── .github/
 ├── CODE_OF_CONDUCT.md
@@ -129,9 +129,11 @@ README 的信息组织参考了 [Taste Skill](https://github.com/Leonxlnx/taste-
 
 ## 参与社区
 
-欢迎提交安全修正、来源更新、术语改进、真实使用反馈和新的低风险主题。请先阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)。
+**我们最推荐的社区参与方式，是提交一份经过脱敏的成年人第一手真实案例。**真实的有效、无效、停止和不良反应经历，都能帮助后来者理解个体差异，也能让 Agent 的回答更贴近真实处境。
 
-我们尤其欢迎来自 MTF、crossdresser、femboy、非二元及其他性别多元群体的经验，但不会要求贡献者公开身份、医疗经历或私密信息。医学主张需附权威来源，个人体验应明确标注为个人或社区经验。
+从宽松的[案例模板](femboy-guide/cases/_template.md)开始，选择最接近的[案例分类](femboy-guide/cases/README.md)，完成脱敏后直接发起 PR。你不需要公开真实姓名、账号、精确年龄、所在地、医疗机构、私密照片或录音；项目同样欢迎没有成功、主动停止或出现不良反应的经历。
+
+我们尤其欢迎来自 MTF、crossdresser、femboy、非二元及其他性别多元成年人的投稿。案例之外，也欢迎安全修正、来源更新、术语改进和新的低风险主题。参与前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)；医学主张需附权威来源，个人体验应明确标注为个人或社区经验。
 
 发现可能导致身体伤害、错误用药或隐私泄露的问题时，请按照 [`SECURITY.md`](SECURITY.md) 的方式报告。
 

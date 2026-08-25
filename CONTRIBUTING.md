@@ -13,13 +13,13 @@
 
 ## 提交真实案例
 
-案例库位于 [`femboy-guide/references/cases/`](femboy-guide/references/cases/README.md)。投稿步骤：
+案例库位于 [`femboy-guide/cases/`](femboy-guide/cases/README.md)。投稿步骤：
 
 1. 阅读案例库的分类、18+ 与脱敏要求；
-2. 复制 [`_template.md`](femboy-guide/references/cases/_template.md) 到最匹配的主题目录；
+2. 复制 [`_template.md`](femboy-guide/cases/_template.md) 到最匹配的主题目录；
 3. 选择 `experience_level` 和 `outcome`，如实保留无效、停止或不良反应结果；
 4. 删除本人、伴侣、医生和机构的可识别信息；
-5. 在 [`INDEX.md`](femboy-guide/references/cases/INDEX.md) 的对应分类增加一行；
+5. 在 [`INDEX.md`](femboy-guide/cases/INDEX.md) 的对应分类增加一行；
 6. 发起 PR，并勾选 PR 模板中的案例确认项。
 
 只接收投稿者本人在成年后发生的真实经历。可以用 AI 整理语言，但不能虚构、拼接、转载或代投；维护者可以要求进一步脱敏。模板刻意保持宽松，除标记“必填”的部分外，可以根据经历删改。

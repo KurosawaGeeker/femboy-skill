@@ -27,7 +27,7 @@
 
 ```bash
 rg -l --glob '*.md' --glob '!README.md' --glob '!INDEX.md' --glob '!_template.md' \
-  'category: voice|experience_level: beginner|outcome: mixed' references/cases
+  'category: voice|experience_level: beginner|outcome: mixed' cases
 ```
 
 检索结果应优先匹配用户的主题、经验阶段、目标与主要限制。不要只挑“成功案例”；无效、停止和不良反应案例同样重要。
