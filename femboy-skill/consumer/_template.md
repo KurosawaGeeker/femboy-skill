@@ -2,7 +2,6 @@
 name: "商品、服务或店面名称"
 type: product
 category: intimate-products
-link: "https://example.com/page"
 adult_only: true
 experienced_by_contributor: true
 commercial_relationship: none
@@ -13,9 +12,15 @@ last_checked: YYYY-MM
 
 > 这是社区成员的个人消费体验，不是广告、医学建议或效果保证。
 
-## 链接（必填）
+## 商品页面截图（必填）
 
-使用官方页、正规零售页面、服务页面或店面页面的完整 HTTPS 链接，不使用短链、邀请、返利或联盟追踪链接。
+提供商品页面截图作为检索线索，用户可根据截图自行搜索商品。截图应遮盖账号、收货地址、订单号等个人信息。
+
+截图示例：
+
+```markdown
+![商品页面截图](../../../assets/example-product-page.png)
+```
 
 ## 怎么消费或使用（必填）
 
@@ -48,6 +53,6 @@ last_checked: YYYY-MM
 ## 投稿前确认（必填）
 
 - [ ] 我本人实际购买、使用或到店体验过，没有仅根据广告或 AI 内容推荐。
-- [ ] 链接是完整 HTTPS 页面，不含短链、邀请、返利或联盟追踪参数。
+- [ ] 我已提供商品/服务页面截图，并遮盖截图中的个人信息。
 - [ ] 我已披露赠品、赞助、联盟、卖家、制造商、服务提供方或店面关系。
 - [ ] 记录没有包含处方药、危险器具、无资质医美服务、医学治疗承诺或固定效果保证。

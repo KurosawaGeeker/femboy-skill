@@ -6,8 +6,6 @@ from __future__ import annotations
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
-
 from community_validation import load_taxonomy, parse_frontmatter
 
 
@@ -18,7 +16,6 @@ REQUIRED = {
     "name",
     "type",
     "category",
-    "link",
     "adult_only",
     "experienced_by_contributor",
     "commercial_relationship",
@@ -65,11 +62,6 @@ def validate_record(
         errors.append(f"{relative}: category 不在允许列表中")
     elif path.parent.name != category:
         errors.append(f"{relative}: category 应与所在目录 {path.parent.name} 一致")
-
-    link = metadata.get("link", "")
-    parsed_link = urlparse(link)
-    if parsed_link.scheme != "https" or not parsed_link.netloc:
-        errors.append(f"{relative}: link 必须是完整 HTTPS 链接")
 
     if metadata.get("adult_only") not in {"true", "false"}:
         errors.append(f"{relative}: adult_only 必须为 true 或 false")
