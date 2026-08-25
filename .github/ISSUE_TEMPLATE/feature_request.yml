@@ -1,0 +1,30 @@
+name: 功能或主题建议
+description: 建议新的低风险主题、来源或社区改进
+title: "feat(scope): "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 用户需求
+      description: 这个建议要帮助用户解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 参考来源
+      description: 医疗、安全或解剖主张请提供权威来源；社区经验请标注性质。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 安全确认
+      options:
+        - label: 建议不包含未成年人露骨内容、危险 DIY 医疗或未经同意的实践。
+          required: true

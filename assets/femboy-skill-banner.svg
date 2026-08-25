@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Femboy Skill inclusive banner</title>
+  <desc id="desc">A soft blue, pink, white and lavender banner with an open book, blooming petals and stars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFFBFF"/>
+      <stop offset="0.45" stop-color="#FFF6FA"/>
+      <stop offset="1" stop-color="#F3EDFF"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D6F89"/>
+      <stop offset="1" stop-color="#7657A6"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#7657A6" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
+  <circle cx="88" cy="70" r="62" fill="#5BCEFA" opacity="0.18"/>
+  <circle cx="1128" cy="292" r="88" fill="#F5A9B8" opacity="0.2"/>
+  <path d="M0 286C184 237 313 339 503 292S833 223 1200 276V360H0Z" fill="#fff" opacity="0.62"/>
+  <g transform="translate(600 178)" filter="url(#shadow)">
+    <path d="M-13-4C-56-47-113-52-163-27V75c58-26 111-12 163 24Z" fill="#fff" stroke="url(#ink)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M13-4C56-47 113-52 163-27V75c-58-26-111-12-163 24Z" fill="#fff" stroke="url(#ink)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M0 0v99" stroke="#7657A6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-2-7C-58-27-69-83-34-111 4-93 16-49-2-7Z" fill="#5BCEFA" stroke="#fff" stroke-width="5"/>
+    <path d="M2-7C58-27 69-83 34-111-4-93-16-49 2-7Z" fill="#F5A9B8" stroke="#fff" stroke-width="5"/>
+    <path d="M-6-11C-40-53-23-105 0-125 23-105 40-53 6-11Z" fill="#fff" stroke="#7657A6" stroke-width="5"/>
+    <circle cx="0" cy="-11" r="13" fill="#7657A6"/>
+  </g>
+  <g fill="none" stroke="#7657A6" stroke-linecap="round">
+    <path d="M356 87v24M344 99h24" stroke-width="5" opacity="0.65"/>
+    <path d="M856 62v18M847 71h18" stroke-width="4" opacity="0.55"/>
+    <path d="M900 141v26M887 154h26" stroke-width="5" opacity="0.7"/>
+  </g>
+  <circle cx="319" cy="169" r="7" fill="#F5A9B8" opacity="0.8"/>
+  <circle cx="881" cy="220" r="8" fill="#5BCEFA" opacity="0.8"/>
+</svg>

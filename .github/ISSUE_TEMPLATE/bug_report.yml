@@ -1,0 +1,41 @@
+name: 内容或功能问题
+description: 报告错误、断链、安装失败或不安全的回答指引
+title: "fix(scope): "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢报告。请勿上传私密影像、病历、身份信息或涉及未成年人的露骨内容；敏感安全问题请使用 Security 私下报告。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 问题类型
+      options:
+        - 身体或医疗安全
+        - 来源或事实错误
+        - 安装或调用失败
+        - 断链或文档问题
+        - 包容性措辞
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 请说明位置、实际表现与预期表现。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 来源或验证信息
+      description: 医疗与安全问题请尽量附权威来源。
+  - type: checkboxes
+    id: adult
+    attributes:
+      label: 内容确认
+      options:
+        - label: 我没有提交未成年人露骨内容或可识别的私密信息。
+          required: true
