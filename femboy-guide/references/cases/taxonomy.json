@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "voice": "伪音与嗓音女性化",
+    "presentation": "外观与女性化表达",
+    "prostate-anal": "前列腺与后庭",
+    "other-sexual-wellness": "其他成人身体探索",
+    "healthcare": "医疗与就诊经验"
+  },
+  "experience_levels": {
+    "first-attempt": "首次尝试",
+    "beginner": "入门阶段",
+    "repeated": "反复尝试",
+    "long-term": "长期实践"
+  },
+  "outcomes": {
+    "helpful": "有效",
+    "mixed": "部分有效或结果混合",
+    "ineffective": "无明显效果",
+    "stopped": "主动停止",
+    "adverse-event": "出现不良反应"
+  }
+}

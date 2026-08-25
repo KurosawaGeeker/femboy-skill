@@ -13,6 +13,7 @@
   <a href="#安装">安装</a> ·
   <a href="#能回答什么">能力</a> ·
   <a href="#使用示例">示例</a> ·
+  <a href="#社区真实案例库">案例</a> ·
   <a href="#安全原则">安全</a> ·
   <a href="#知识来源与许可">来源</a> ·
   <a href="CONTRIBUTING.md">参与贡献</a>
@@ -80,6 +81,14 @@ $femboy-guide 我不方便公开女装，怎样增加低可见度的女性氛围
 
 skill 会尽量先给直接结论，再提供可执行的小步骤、观察指标、停止条件和最相关的来源链接。它不会承诺“通过”、高潮、固定训练周期或某种身体变化。
 
+## 社区真实案例库
+
+[`femboy-guide/references/cases/`](femboy-guide/references/cases/README.md) 用于收录成年贡献者提交、完成个人信息脱敏的第一手真实经历。案例按主题目录、经验阶段和结果分类，既收录有效经验，也保留部分有效、无效、停止和不良反应案例。
+
+案例是帮助理解个体差异的社区经验，不是医学证据或效果保证。贡献者可以复制宽松的 [`_template.md`](femboy-guide/references/cases/_template.md)，放入对应类别目录并发起 PR；只需保留少量必填字段，其他章节可以根据经历自由删改。
+
+投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-guide/references/cases/README.md)。
+
 ## 安全原则
 
 - **成年人限定：**露骨性技巧只面向 18 岁及以上成年人；明确未满 18 岁时不提供插入、玩具或高潮训练步骤。
@@ -99,6 +108,7 @@ femboy-skill/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
 │   └── references/
+│       └── cases/          # 分类案例、索引与投稿模板
 ├── assets/
 ├── .github/
 ├── CODE_OF_CONDUCT.md
