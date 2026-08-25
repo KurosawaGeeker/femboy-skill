@@ -1,0 +1,16 @@
+{
+  "categories": {
+    "intimate-toys": "成人情趣玩具",
+    "lubricants-hygiene": "润滑、清洁与收纳",
+    "grooming-beauty": "护理与美容",
+    "clothing-accessories": "服饰与配件",
+    "voice-tools": "嗓音与录音工具"
+  },
+  "commercial_relationships": {
+    "none": "无商业关系",
+    "gifted": "获赠商品",
+    "sponsored": "赞助内容",
+    "affiliate": "存在联盟关系但链接本身不得带追踪参数",
+    "seller-or-manufacturer": "投稿者属于卖家或制造商"
+  }
+}

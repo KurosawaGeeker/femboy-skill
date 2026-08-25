@@ -9,10 +9,12 @@ permissions:
   contents: read
 
 jobs:
-  cases:
-    name: Community cases
+  community-content:
+    name: Community content
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Validate case metadata and index
         run: python3 scripts/validate_cases.py
+      - name: Validate item metadata and index
+        run: python3 scripts/validate_items.py

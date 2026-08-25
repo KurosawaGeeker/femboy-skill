@@ -3,10 +3,11 @@
 
 from __future__ import annotations
 
-import json
 import re
 import sys
 from pathlib import Path
+
+from community_validation import load_taxonomy as load_taxonomy_file, parse_frontmatter
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,29 +18,12 @@ FILENAME = re.compile(r"^\d{4}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*\.md$")
 
 
 def load_taxonomy() -> tuple[set[str], set[str], set[str]]:
-    data = json.loads((CASES / "taxonomy.json").read_text(encoding="utf-8"))
-    return (
-        set(data["categories"]),
-        set(data["experience_levels"]),
-        set(data["outcomes"]),
+    return load_taxonomy_file(
+        CASES / "taxonomy.json",
+        "categories",
+        "experience_levels",
+        "outcomes",
     )
-
-
-def parse_frontmatter(path: Path) -> dict[str, str]:
-    lines = path.read_text(encoding="utf-8").splitlines()
-    if not lines or lines[0] != "---":
-        raise ValueError("缺少 YAML frontmatter 起始标记")
-
-    metadata: dict[str, str] = {}
-    for line in lines[1:]:
-        if line == "---":
-            return metadata
-        if not line.strip() or line.lstrip().startswith("#"):
-            continue
-        match = re.match(r"^([a-z_]+):\s*(.*?)\s*$", line)
-        if match:
-            metadata[match.group(1)] = match.group(2).strip('"\'')
-    raise ValueError("缺少 YAML frontmatter 结束标记")
 
 
 def validate_case(
