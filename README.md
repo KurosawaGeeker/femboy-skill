@@ -14,7 +14,7 @@
   <a href="#能回答什么">能力</a> ·
   <a href="#使用示例">示例</a> ·
   <a href="#社区真实案例库">案例</a> ·
-  <a href="#社区用品推荐">用品</a> ·
+  <a href="#社区消费指南">消费指南</a> ·
   <a href="#安全原则">安全</a> ·
   <a href="#知识来源与许可">来源</a> ·
   <a href="CONTRIBUTING.md">参与贡献</a>
@@ -102,11 +102,11 @@ skill 会尽量先给直接结论，再提供可执行的小步骤、观察指�
 
 投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-skill/cases/README.md)。
 
-## 社区用品推荐
+## 社区消费指南
 
-[`femboy-skill/items/`](femboy-skill/items/README.md) 收录社区成员亲自使用过的情趣用品、化妆和医美相关用品及女装配饰。每份推荐至少包含商品名、商品链接、实际用法、推荐理由、缺点以及商业关系披露。
+[`femboy-skill/consumer/`](femboy-skill/consumer/README.md) 收录社区成员亲自购买、使用或到店体验过的商品、服务和店面，覆盖情趣用品、化妆和医美及女装配饰。每份记录至少包含名称、类型、链接、消费方式、推荐理由、缺点以及商业关系披露。
 
-用品推荐是个人体验，不是广告、医学背书或效果保证。贡献者可以复制简单的[用品模板](femboy-skill/items/_template.md)，放入对应[用品分类](femboy-skill/items/README.md)并发起 PR；商品链接必须是无短链、返利或联盟追踪的完整 HTTPS 页面。
+消费记录是个人体验，不是广告、医学背书或效果保证。贡献者可以复制简单的[消费记录模板](femboy-skill/consumer/_template.md)，放入对应[主题分类](femboy-skill/consumer/README.md)并发起 PR；商品、服务或店面链接必须是无短链、返利或联盟追踪的完整 HTTPS 页面。
 
 ## 安全原则
 
@@ -127,7 +127,7 @@ femboy-skill/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
 │   ├── cases/              # 分类案例、索引与投稿模板
-│   ├── items/              # 社区用品推荐与投稿模板
+│   ├── consumer/           # 社区消费指南与投稿模板
 │   └── references/         # 主题知识与安全边界
 ├── assets/
 ├── .github/
@@ -153,9 +153,9 @@ README 的信息组织参考了 [Taste Skill](https://github.com/Leonxlnx/taste-
 
 从宽松的[案例模板](femboy-skill/cases/_template.md)开始，选择最接近的[案例分类](femboy-skill/cases/README.md)，完成脱敏后直接发起 PR。你不需要公开真实姓名、账号、精确年龄、所在地、医疗机构、私密照片或录音；项目同样欢迎没有成功、主动停止或出现不良反应的经历。
 
-也可以向[用品推荐模块](femboy-skill/items/README.md)提交亲自使用过的情趣用品、化妆和医美相关用品或女装配饰，写清商品链接、用法、推荐理由、缺点和商业关系。
+也可以向[社区消费指南](femboy-skill/consumer/README.md)提交亲自购买、使用或到店体验过的商品、服务和店面，写清链接、消费方式、推荐理由、缺点和商业关系。
 
-我们尤其欢迎来自 MTF、crossdresser、femboy、非二元及其他性别多元成年人的投稿。案例和用品之外，也欢迎安全修正、来源更新、术语改进和新的低风险主题。参与前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)；医学主张需附权威来源，个人体验应明确标注为个人或社区经验。
+我们尤其欢迎来自 MTF、crossdresser、femboy、非二元及其他性别多元成年人的投稿。案例和消费记录之外，也欢迎安全修正、来源更新、术语改进和新的低风险主题。参与前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)；医学主张需附权威来源，个人体验应明确标注为个人或社区经验。
 
 发现可能导致身体伤害、错误用药或隐私泄露的问题时，请按照 [`SECURITY.md`](SECURITY.md) 的方式报告。
 

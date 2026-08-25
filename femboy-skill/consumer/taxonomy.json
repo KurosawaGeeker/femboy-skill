@@ -1,4 +1,9 @@
 {
+  "types": {
+    "product": "商品",
+    "service": "服务",
+    "store": "店面"
+  },
   "categories": {
     "intimate-products": "情趣用品",
     "makeup-aesthetics": "化妆和医美",
@@ -9,6 +14,7 @@
     "gifted": "获赠商品",
     "sponsored": "赞助内容",
     "affiliate": "存在联盟关系但链接本身不得带追踪参数",
-    "seller-or-manufacturer": "投稿者属于卖家或制造商"
+    "seller-or-manufacturer": "投稿者属于卖家或制造商",
+    "provider-or-store": "投稿者属于服务提供方或店面"
   }
 }
