@@ -11,7 +11,7 @@ from community_validation import load_taxonomy as load_taxonomy_file, parse_fron
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CASES = ROOT / "femboy-guide" / "cases"
+CASES = ROOT / "femboy-skill" / "cases"
 CONTROL_FILES = {"README.md", "INDEX.md", "_template.md"}
 REQUIRED = {"title", "category", "experience_level", "outcome", "adult", "anonymized"}
 FILENAME = re.compile(r"^\d{4}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*\.md$")

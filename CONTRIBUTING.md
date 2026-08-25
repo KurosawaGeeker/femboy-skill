@@ -9,30 +9,30 @@
 - 改善对 MTF、crossdresser、femboy、非二元及其他性别多元人群的措辞；
 - 提交新的低风险实践主题或更清晰的停止信号；
 - 向分类案例库提交完成脱敏的成年人第一手真实经历；
-- 推荐本人亲自使用过的情趣用品、男性用品或女性化表达工具；
+- 推荐本人亲自使用过的情趣用品、化妆和医美相关用品或女装配饰；
 - 修正文档、链接、安装说明和 Agent 兼容性问题。
 
 ## 提交真实案例
 
-案例库位于 [`femboy-guide/cases/`](femboy-guide/cases/README.md)。投稿步骤：
+案例库位于 [`femboy-skill/cases/`](femboy-skill/cases/README.md)。投稿步骤：
 
 1. 阅读案例库的分类、18+ 与脱敏要求；
-2. 复制 [`_template.md`](femboy-guide/cases/_template.md) 到最匹配的主题目录；
+2. 复制 [`_template.md`](femboy-skill/cases/_template.md) 到最匹配的主题目录；
 3. 选择 `experience_level` 和 `outcome`，如实保留无效、停止或不良反应结果；
 4. 删除本人、伴侣、医生和机构的可识别信息；
-5. 在 [`INDEX.md`](femboy-guide/cases/INDEX.md) 的对应分类增加一行；
+5. 在 [`INDEX.md`](femboy-skill/cases/INDEX.md) 的对应分类增加一行；
 6. 发起 PR，并勾选 PR 模板中的案例确认项。
 
 只接收投稿者本人在成年后发生的真实经历。可以用 AI 整理语言，但不能虚构、拼接、转载或代投；维护者可以要求进一步脱敏。模板刻意保持宽松，除标记“必填”的部分外，可以根据经历删改。
 
 ## 推荐社区用品
 
-用品模块位于 [`femboy-guide/items/`](femboy-guide/items/README.md)。投稿步骤：
+用品模块位于 [`femboy-skill/items/`](femboy-skill/items/README.md)。投稿步骤：
 
-1. 复制 [`_template.md`](femboy-guide/items/_template.md) 到最匹配的用品分类；
+1. 复制 [`_template.md`](femboy-skill/items/_template.md) 到最匹配的用品分类；
 2. 填写商品名、商品链接、是否成人限定、亲自使用确认和商业关系；
 3. 写清实际用法、推荐理由、缺点与不适合谁；
-4. 在 [`INDEX.md`](femboy-guide/items/INDEX.md) 的对应分类增加一行；
+4. 在 [`INDEX.md`](femboy-skill/items/INDEX.md) 的对应分类增加一行；
 5. 发起 PR，并勾选 PR 模板中的用品确认项。
 
 只推荐本人实际使用过的商品。链接应指向商品官方页或正规零售页面，不使用短链、邀请、返利或联盟追踪链接；赠品、赞助、联盟、卖家或制造商关系必须披露。
@@ -55,7 +55,7 @@
 3. 修改后运行校验：
 
    ```bash
-   python3 /path/to/skill-creator/scripts/quick_validate.py femboy-guide
+   python3 /path/to/skill-creator/scripts/quick_validate.py femboy-skill
    python3 scripts/validate_cases.py
    python3 scripts/validate_items.py
    git diff --check

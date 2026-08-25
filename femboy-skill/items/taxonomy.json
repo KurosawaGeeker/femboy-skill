@@ -1,10 +1,8 @@
 {
   "categories": {
-    "intimate-toys": "成人情趣玩具",
-    "lubricants-hygiene": "润滑、清洁与收纳",
-    "grooming-beauty": "护理与美容",
-    "clothing-accessories": "服饰与配件",
-    "voice-tools": "嗓音与录音工具"
+    "intimate-products": "情趣用品",
+    "makeup-aesthetics": "化妆和医美",
+    "womenswear-accessories": "女装配饰"
   },
   "commercial_relationships": {
     "none": "无商业关系",

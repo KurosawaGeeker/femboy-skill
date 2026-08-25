@@ -10,7 +10,7 @@
 
 生如夏花 Wiki 声明除特别注明外采用 CC BY-SA 4.0。相关内容归属生如夏花开发者、创作者及各原始资料作者。本项目未整篇复制 Wiki 页面，而是对主题结构与社区经验进行提炼，并加入医学安全边界；这些衍生部分继续采用 CC BY-SA 4.0。
 
-本项目不是生如夏花官方项目，未获得或暗示其背书。具体页面映射、医学校正来源和内容边界见 [`femboy-guide/references/source-map.md`](femboy-guide/references/source-map.md)。
+本项目不是生如夏花官方项目，未获得或暗示其背书。具体页面映射、医学校正来源和内容边界见 [`femboy-skill/references/source-map.md`](femboy-skill/references/source-map.md)。
 
 ## README 结构参考
 

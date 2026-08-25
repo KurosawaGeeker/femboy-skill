@@ -1,4 +1,0 @@
-interface:
-  display_name: "男娘成长指南"
-  short_description: "基于生如夏花 Wiki 的女性化、伪音与成人性健康问答"
-  default_prompt: "使用 $femboy-guide 回答我在女性化或身体探索上的问题，并给出安全、可执行的下一步。"

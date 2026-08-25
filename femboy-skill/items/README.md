@@ -1,6 +1,6 @@
 # 社区用品推荐
 
-这里收录社区贡献者亲自使用过的情趣用品、男性用品及女性化表达相关工具。推荐帮助用户建立候选清单，不代表项目、生如夏花知识库或医学机构背书，也不保证商品适合每个人。
+这里收录社区贡献者亲自使用过的情趣用品、化妆和医美相关用品，以及女装配饰。推荐帮助用户建立候选清单，不代表项目、生如夏花知识库或医学机构背书，也不保证商品适合每个人。
 
 > 仓库包含成人用品内容，仅限年满 18 周岁的成年人阅读和使用。未成年人勿看勿用，后果自负。
 
@@ -8,11 +8,9 @@
 
 | 目录 | 收录范围 |
 |---|---|
-| [`intimate-toys/`](intimate-toys/README.md) | 成人情趣玩具、前列腺按摩器及其他身体探索用品 |
-| [`lubricants-hygiene/`](lubricants-hygiene/README.md) | 润滑剂、清洁、屏障防护与用品收纳 |
-| [`grooming-beauty/`](grooming-beauty/README.md) | 剃须、脱毛、护肤、妆容及日常护理用品 |
-| [`clothing-accessories/`](clothing-accessories/README.md) | 服饰、内衣、塑形、假发与配件 |
-| [`voice-tools/`](voice-tools/README.md) | 嗓音练习、录音、监听与反馈工具 |
+| [`intimate-products/`](intimate-products/README.md) | 情趣玩具、润滑、清洁、屏障防护与用品收纳 |
+| [`makeup-aesthetics/`](makeup-aesthetics/README.md) | 化妆、护肤、脱毛及医美相关用品 |
+| [`womenswear-accessories/`](womenswear-accessories/README.md) | 女装、内衣、塑形、假发、饰品与配件 |
 
 [`taxonomy.json`](taxonomy.json) 是分类和商业关系标签的机器可读定义。全部已收录用品见 [`INDEX.md`](INDEX.md)。
 

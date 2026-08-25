@@ -44,17 +44,17 @@ Femboy Skill 希望给中文用户一个温和、直接、去羞耻化的问答�
 ### 使用 Skills CLI
 
 ```bash
-npx skills add https://github.com/KurosawaGeeker/femboy-skill --skill femboy-guide
+npx skills add https://github.com/KurosawaGeeker/femboy-skill --skill femboy-skill
 ```
 
 ### 手动安装到 Codex
 
 ```bash
 git clone https://github.com/KurosawaGeeker/femboy-skill.git
-cp -R femboy-skill/femboy-guide ~/.codex/skills/femboy-guide
+cp -R femboy-skill/femboy-skill ~/.codex/skills/femboy-skill
 ```
 
-安装后重新开启一个 Codex 任务，即可显式调用 `$femboy-guide`；支持自动发现 skill 的 Agent 也可根据问题自动选择它。
+安装后重新开启一个 Codex 任务，即可显式调用 `$femboy-skill`；支持自动发现 skill 的 Agent 也可根据问题自动选择它。
 
 ## 能回答什么
 
@@ -71,30 +71,30 @@ cp -R femboy-skill/femboy-guide ~/.codex/skills/femboy-guide
 ## 使用示例
 
 ```text
-$femboy-guide 如何练习自然、可长期使用的伪音？
+$femboy-skill 如何练习自然、可长期使用的伪音？
 
-$femboy-guide 我总是遮不住胡青，应该先调整哪一步？
+$femboy-skill 我总是遮不住胡青，应该先调整哪一步？
 
-$femboy-guide 如何更安全地探索前列腺高潮？
+$femboy-skill 如何更安全地探索前列腺高潮？
 
-$femboy-guide 我不方便公开女装，怎样增加低可见度的女性氛围？
+$femboy-skill 我不方便公开女装，怎样增加低可见度的女性氛围？
 ```
 
 skill 会尽量先给直接结论，再提供可执行的小步骤、观察指标、停止条件和最相关的来源链接。它不会承诺“通过”、高潮、固定训练周期或某种身体变化。
 
 ## 社区真实案例库
 
-[`femboy-guide/cases/`](femboy-guide/cases/README.md) 用于收录成年贡献者提交、完成个人信息脱敏的第一手真实经历。案例按主题目录、经验阶段和结果分类，既收录有效经验，也保留部分有效、无效、停止和不良反应案例。
+[`femboy-skill/cases/`](femboy-skill/cases/README.md) 用于收录成年贡献者提交、完成个人信息脱敏的第一手真实经历。案例按主题目录、经验阶段和结果分类，既收录有效经验，也保留部分有效、无效、停止和不良反应案例。
 
-案例是帮助理解个体差异的社区经验，不是医学证据或效果保证。贡献者可以复制宽松的 [`_template.md`](femboy-guide/cases/_template.md)，放入对应类别目录并发起 PR；只需保留少量必填字段，其他章节可以根据经历自由删改。
+案例是帮助理解个体差异的社区经验，不是医学证据或效果保证。贡献者可以复制宽松的 [`_template.md`](femboy-skill/cases/_template.md)，放入对应类别目录并发起 PR；只需保留少量必填字段，其他章节可以根据经历自由删改。
 
-投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-guide/cases/README.md)。
+投稿前必须删除本人及第三人的可识别信息，不提交私密照片、录音、病历号、精确地址、联系方式或涉及未成年人的露骨内容。详细规则与分类见[案例库说明](femboy-skill/cases/README.md)。
 
 ## 社区用品推荐
 
-[`femboy-guide/items/`](femboy-guide/items/README.md) 收录社区成员亲自使用过的情趣用品、男性护理用品、服饰配件和嗓音工具。每份推荐至少包含商品名、商品链接、实际用法、推荐理由、缺点以及商业关系披露。
+[`femboy-skill/items/`](femboy-skill/items/README.md) 收录社区成员亲自使用过的情趣用品、化妆和医美相关用品及女装配饰。每份推荐至少包含商品名、商品链接、实际用法、推荐理由、缺点以及商业关系披露。
 
-用品推荐是个人体验，不是广告、医学背书或效果保证。贡献者可以复制简单的[用品模板](femboy-guide/items/_template.md)，放入对应[用品分类](femboy-guide/items/README.md)并发起 PR；商品链接必须是无短链、返利或联盟追踪的完整 HTTPS 页面。
+用品推荐是个人体验，不是广告、医学背书或效果保证。贡献者可以复制简单的[用品模板](femboy-skill/items/_template.md)，放入对应[用品分类](femboy-skill/items/README.md)并发起 PR；商品链接必须是无短链、返利或联盟追踪的完整 HTTPS 页面。
 
 ## 安全原则
 
@@ -105,13 +105,13 @@ skill 会尽量先给直接结论，再提供可执行的小步骤、观察指�
 - **不替代医疗：**不诊断、不处方、不指导自行使用激素、GLP-1 减重药、麻醉剂或手术。
 - **隐私与同意：**不要求私密照片或录音；涉及伴侣时强调知情同意、可随时撤回和屏障防护。
 
-完整边界见 [`femboy-guide/SKILL.md`](femboy-guide/SKILL.md) 与 [`medical-boundaries.md`](femboy-guide/references/medical-boundaries.md)。
+完整边界见 [`femboy-skill/SKILL.md`](femboy-skill/SKILL.md) 与 [`medical-boundaries.md`](femboy-skill/references/medical-boundaries.md)。
 
 ## 项目结构
 
 ```text
 femboy-skill/
-├── femboy-guide/
+├── femboy-skill/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
 │   ├── cases/              # 分类案例、索引与投稿模板
@@ -131,7 +131,7 @@ femboy-skill/
 
 生如夏花 Wiki 声明其内容混合国外互联网资料翻译与社区实践总结，除特别注明外采用 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可。本项目从该 Wiki 提炼的主题结构与摘要沿用 **CC BY-SA 4.0**，归属生如夏花开发者及相关原作者；再分发与改编时请保留署名、来源链接并以相同许可共享。
 
-本项目并非生如夏花官方项目，也不代表其维护者立场。Wiki 中的社区经验经过风险筛选；医疗安全内容会尽量使用权威资料校正。详细来源映射见 [`source-map.md`](femboy-guide/references/source-map.md)，完整署名见 [`NOTICE.md`](NOTICE.md)。
+本项目并非生如夏花官方项目，也不代表其维护者立场。Wiki 中的社区经验经过风险筛选；医疗安全内容会尽量使用权威资料校正。详细来源映射见 [`source-map.md`](femboy-skill/references/source-map.md)，完整署名见 [`NOTICE.md`](NOTICE.md)。
 
 README 的信息组织参考了 [Taste Skill](https://github.com/Leonxlnx/taste-skill) 的开源项目呈现方式，视觉与文案均为本项目原创。
 
@@ -139,9 +139,9 @@ README 的信息组织参考了 [Taste Skill](https://github.com/Leonxlnx/taste-
 
 **我们最推荐的社区参与方式，是提交一份经过脱敏的成年人第一手真实案例。**真实的有效、无效、停止和不良反应经历，都能帮助后来者理解个体差异，也能让 Agent 的回答更贴近真实处境。
 
-从宽松的[案例模板](femboy-guide/cases/_template.md)开始，选择最接近的[案例分类](femboy-guide/cases/README.md)，完成脱敏后直接发起 PR。你不需要公开真实姓名、账号、精确年龄、所在地、医疗机构、私密照片或录音；项目同样欢迎没有成功、主动停止或出现不良反应的经历。
+从宽松的[案例模板](femboy-skill/cases/_template.md)开始，选择最接近的[案例分类](femboy-skill/cases/README.md)，完成脱敏后直接发起 PR。你不需要公开真实姓名、账号、精确年龄、所在地、医疗机构、私密照片或录音；项目同样欢迎没有成功、主动停止或出现不良反应的经历。
 
-也可以向[用品推荐模块](femboy-guide/items/README.md)提交亲自使用过的情趣用品、男性护理用品或女性化表达工具，写清商品链接、用法、推荐理由、缺点和商业关系。
+也可以向[用品推荐模块](femboy-skill/items/README.md)提交亲自使用过的情趣用品、化妆和医美相关用品或女装配饰，写清商品链接、用法、推荐理由、缺点和商业关系。
 
 我们尤其欢迎来自 MTF、crossdresser、femboy、非二元及其他性别多元成年人的投稿。案例和用品之外，也欢迎安全修正、来源更新、术语改进和新的低风险主题。参与前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)；医学主张需附权威来源，个人体验应明确标注为个人或社区经验。
 

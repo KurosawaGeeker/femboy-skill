@@ -12,7 +12,7 @@ from community_validation import load_taxonomy, parse_frontmatter
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ITEMS = ROOT / "femboy-guide" / "items"
+ITEMS = ROOT / "femboy-skill" / "items"
 CONTROL_FILES = {"README.md", "INDEX.md", "_template.md"}
 REQUIRED = {
     "product_name",

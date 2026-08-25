@@ -1,6 +1,6 @@
 ---
 product_name: "商品名与型号"
-category: intimate-toys
+category: intimate-products
 product_link: "https://example.com/product"
 adult_only: true
 tested_by_contributor: true
