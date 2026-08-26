@@ -14,6 +14,7 @@
 |---|---|---|---|
 | [首次女装尝试中的舒适度与尺码反馈](presentation/2026-08-clothing-first-attempt-mixed.md) | 首次尝试 | 部分有效或结果混合 | 女装、尺码、舒适度、袜类 |
 | [首次到店处理私密部位体毛的尴尬与适应](presentation/2026-08-private-depilation-first-visit-mixed.md) | 首次尝试 | 部分有效或结果混合 | 脱毛、隐私、线下服务、边界 |
+| [首次女装中的尺码、面料与活动限制](presentation/2026-08-clothing-sizing-first-attempt-mixed.md) | 首次尝试 | 部分有效或结果混合 | 女装、尺码、面料、活动限制 |
 
 ## 前列腺与后庭
 
@@ -21,6 +22,7 @@
 |---|---|---|---|
 | [前列腺玩具首次尝试因不适而停止](prostate-anal/2026-08-aneros-first-attempt-stopped.md) | 首次尝试 | 主动停止 | 前列腺、玩具、不适、停止信号 |
 | [前列腺探索初期有快感但仍需主动收缩](prostate-anal/2026-08-early-prostate-exploration-mixed.md) | 入门阶段 | 部分有效或结果混合 | 前列腺、体感、主动收缩、个体差异 |
+| [前列腺探索记录中的无感、疲劳与一次疑似成功](prostate-anal/2026-08-front-high-development-log-mixed.md) | 入门阶段 | 部分有效或结果混合 | 前列腺、无感、疲劳、不确定结果 |
 
 ## 其他成人身体探索
 
