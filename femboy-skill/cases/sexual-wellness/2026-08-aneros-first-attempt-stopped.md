@@ -1,6 +1,6 @@
 ---
 title: "前列腺玩具首次尝试因不适而停止"
-category: prostate-anal
+category: sexual-wellness
 experience_level: first-attempt
 outcome: stopped
 adult: true

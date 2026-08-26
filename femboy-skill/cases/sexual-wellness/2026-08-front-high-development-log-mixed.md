@@ -1,6 +1,6 @@
 ---
 title: "前列腺探索记录中的无感、疲劳与一次疑似成功"
-category: prostate-anal
+category: sexual-wellness
 experience_level: beginner
 outcome: mixed
 adult: true

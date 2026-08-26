@@ -12,8 +12,7 @@
 |---|---|
 | [`voice/`](voice/README.md) | 伪音、嗓音女性化、练习瓶颈与声音保护 |
 | [`presentation/`](presentation/README.md) | 护肤、妆容、胡青、穿搭、身材与日常表达 |
-| [`prostate-anal/`](prostate-anal/README.md) | 成年人的前列腺与后庭探索、工具适配和停止经历 |
-| [`other-sexual-wellness/`](other-sexual-wellness/README.md) | 成年人的乳首、非射精高潮、潮吹、催眠音声等体验 |
+| [`sexual-wellness/`](sexual-wellness/README.md) | 成年人的前列腺、后庭、乳首、非射精高潮、潮吹、催眠音声及相关身体探索 |
 | [`healthcare/`](healthcare/README.md) | 就医沟通、检查、用药观察与不良反应处理经历 |
 
 案例元数据使用以下经验标签：

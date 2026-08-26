@@ -1,6 +1,6 @@
 ---
 title: "侵入性乳首实践后的敏感度下降与情绪波动"
-category: other-sexual-wellness
+category: sexual-wellness
 experience_level: repeated
 outcome: adverse-event
 adult: true

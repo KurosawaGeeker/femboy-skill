@@ -1,6 +1,6 @@
 ---
 title: "前列腺探索初期有快感但仍需主动收缩"
-category: prostate-anal
+category: sexual-wellness
 experience_level: beginner
 outcome: mixed
 adult: true
