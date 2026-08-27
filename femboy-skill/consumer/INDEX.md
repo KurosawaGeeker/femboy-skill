@@ -16,7 +16,7 @@
 | 名称 | 类型 | 地区/价格 | 成人限定 | 商业关系 | 关键词 |
 |---|---|---|---|---|---|
 | [芦荟皂剃毛器（五层刀片款）](makeup-aesthetics/aloe-soap-razor.md) | 商品 | 电商渠道 / 原帖约 50 元（待核对） | 否 | 待作者确认 | 剃毛、五层刀片、可重复使用 |
-| [KRYOLAN 六色遮瑕盘](makeup-aesthetics/kryolan-six-color-concealer.md) | 商品 | 电商渠道 / 价格待补充 | 否 | 待作者确认 | 遮瑕、胡青、六色盘 |
+| [KRYOLAN 三色/六色遮瑕盘](makeup-aesthetics/kryolan-six-color-concealer.md) | 商品 | 电商渠道 / 约 200 元（待核对） | 否 | 待作者确认 | 遮瑕、胡青、三色盘、六色盘 |
 | [So soon 男士脱毛](makeup-aesthetics/so-soon-mens-hair-removal.md) | 服务 | 江苏省苏州市 / 60 元单部位 | 是 | 无 | 男士脱毛、激光脱毛 |
 
 ## 女装配饰
