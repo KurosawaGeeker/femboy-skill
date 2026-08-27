@@ -15,6 +15,7 @@
     "sponsored": "赞助内容",
     "affiliate": "存在联盟关系但链接本身不得带追踪参数",
     "seller-or-manufacturer": "投稿者属于卖家或制造商",
-    "provider-or-store": "投稿者属于服务提供方或店面"
+    "provider-or-store": "投稿者属于服务提供方或店面",
+    "pending-confirmation": "商业关系待投稿者确认"
   }
 }
