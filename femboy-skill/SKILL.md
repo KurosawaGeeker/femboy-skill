@@ -15,6 +15,7 @@ description: 为成年人解答男娘、伪娘、女性化表达与身体探索�
 2. 按主题只读取相关参考：
    - 伪音、嗓音女性化：读 [references/voice.md](references/voice.md)。
    - 穿搭、妆容、胡青、护肤、身材和日常女性氛围：读 [references/presentation.md](references/presentation.md)。
+   - cosplay 的服化道、拍摄准备、现场安全与收尾：读 [references/cosplay.md](references/cosplay.md)。
    - 前列腺高潮、后庭、玩具、润滑和清洁：读 [references/prostate-and-anal.md](references/prostate-and-anal.md)。
    - 乳首、非射精高潮、潮吹、催眠音声等：读 [references/other-sexual-wellness.md](references/other-sexual-wellness.md)。
    - 涉及药物、手术、持续症状、受伤、饮食失调或未成年人：同时读 [references/medical-boundaries.md](references/medical-boundaries.md)。
