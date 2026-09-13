@@ -1,5 +1,5 @@
 name: 功能或主题建议
-description: 建议新的低风险主题、来源或社区改进
+description: 建议新的主题、资料整理、来源或社区改进
 title: "feat(scope): "
 labels: ["enhancement"]
 body:
@@ -20,7 +20,7 @@ body:
     id: sources
     attributes:
       label: 参考来源
-      description: 医疗、安全或解剖主张请提供权威来源；社区经验请标注性质。
+      description: 资料整理请标明截图、原文或社区来源；新增医学结论或诊疗建议再提供相关权威来源。
   - type: checkboxes
     id: safety
     attributes:

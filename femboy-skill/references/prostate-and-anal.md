@@ -35,6 +35,10 @@
 
 先说明个体差异，再给“安全准备 → 外部唤起 → 缓慢探索 → 低压力反馈 → 清洁与复盘”的路线。若用户已尝试多次，定位瓶颈是紧张/疼痛、润滑、工具、刺激过强、追求结果还是健康问题；每次只调整一项。
 
+## 社区截图整理
+
+[润滑液配制、清洁器具与便携收纳](intimate-lubricant-notes.md)按截图整理采购清单、95∶5 配比、使用顺序、分装方式和原作者体验。未经医学验证，谨慎取舍。
+
 ## 来源
 
 - Wiki 社区经验：[前列腺简介](https://wiki.viva-la-vita.org/prostate)、[后庭安全](https://wiki.viva-la-vita.org/prostate/anal/safety)、[准备工作](https://wiki.viva-la-vita.org/prostate/anal/preparation)、[基本步骤](https://wiki.viva-la-vita.org/prostate/anal/step)
